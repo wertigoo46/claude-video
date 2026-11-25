@@ -9,7 +9,7 @@ args=(-y -hide_banner -loglevel error -i "$in")
 if [ -n "$audio" ]; then args+=(-i "$audio" -map 0:v:0 -map 1:a:0 -shortest); else args+=(-map 0:v:0 -map "0:a?"); fi
 ffmpeg "${args[@]}" \
   -vf "scale=2560:1440:flags=lanczos,format=yuv420p" -r 30 \
-  -c:v libx264 -profile:v high -level 5.1 -preset slow -crf 18 -tune animation \
+  -c:v libx264 -profile:v high -level 5.1 -preset slow -crf 21 -tune animation \
   -g 60 -bf 2 \
   -color_primaries bt709 -color_trc bt709 -colorspace bt709 \
   -c:a aac -b:a 192k -ar 48000 -ac 2 \

@@ -4,3 +4,7 @@ node_modules/
 *.wav
 *.mp3
 __pycache__/
+videos3d/*/out/
+videos3d/*/stills/
+*.jpg
+!assets/*

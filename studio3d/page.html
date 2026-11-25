@@ -1,0 +1,49 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  :root{--u:1}
+  html,body{margin:0;background:#000;overflow:hidden}
+  #stage{position:relative;width:1280px;height:720px;overflow:hidden}
+  canvas{position:absolute;inset:0;display:block}
+  #vig{position:absolute;inset:0;background:
+     radial-gradient(ellipse at 50% 45%, rgba(0,0,0,0) 55%, rgba(0,0,0,.38) 100%),
+     linear-gradient(to bottom, rgba(0,0,0,.28) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 62%, rgba(0,0,0,.55) 100%)}
+  .hud{position:absolute;top:calc(var(--u)*40px);color:#f3ead8;font-family:Inter,"Helvetica Neue",Arial,sans-serif;text-shadow:0 1px 6px rgba(0,0,0,.45)}
+  #hl{left:calc(var(--u)*48px)} #hr{right:calc(var(--u)*48px);text-align:right}
+  .lab{font-size:calc(var(--u)*11px);letter-spacing:.2em;font-weight:600;opacity:.85;text-transform:uppercase}
+  .serif{font-family:"Bitstream Charter",Charter,Caladea,Georgia,"Times New Roman",serif}
+  #val{font-size:calc(var(--u)*44px);line-height:1.15;margin-top:calc(var(--u)*4px);transform-origin:left center;white-space:nowrap}
+  #val .x{color:#e8c56a;font-size:.72em;margin-right:.05em}
+  #val sup{font-size:.55em;vertical-align:top;position:relative;top:-.1em}
+  #al{margin-top:calc(var(--u)*10px)} #alv{font-size:calc(var(--u)*32px);color:#ff7a66;line-height:1.2}
+  #status{font-size:calc(var(--u)*27px);font-weight:800;letter-spacing:.06em;margin-top:calc(var(--u)*5px);text-transform:uppercase}
+  #sub{margin-top:calc(var(--u)*5px)}
+  #cap{position:absolute;left:6%;right:6%;bottom:calc(var(--u)*52px);text-align:center;color:#fff;font-style:italic;
+       font-size:calc(var(--u)*35px);line-height:1.3;text-shadow:0 2px 10px rgba(0,0,0,.7)}
+  #card{position:absolute;left:50%;top:46%;transform:translate(-50%,-50%);min-width:calc(var(--u)*320px);max-width:70%;
+        padding:calc(var(--u)*26px) calc(var(--u)*34px);border-radius:calc(var(--u)*14px);background:rgba(14,18,32,.78);
+        border:1px solid rgba(255,255,255,.14);color:#f3ead8;font-family:Inter,"Helvetica Neue",Arial,sans-serif;
+        font-size:calc(var(--u)*20px);line-height:1.45;text-align:center;box-shadow:0 12px 40px rgba(0,0,0,.45)}
+  #card h4{margin:0 0 .6em;font-size:.6em;letter-spacing:.22em;font-weight:700;opacity:.8;text-transform:uppercase}
+  #card b{font-family:"Bitstream Charter",Charter,Caladea,Georgia,serif;font-weight:400;font-size:2.2em;color:#fff}
+  #title{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;color:#f3ead8;
+         font-family:Inter,"Helvetica Neue",Arial,sans-serif;font-weight:800;letter-spacing:.14em;font-size:calc(var(--u)*56px);
+         text-transform:uppercase;text-shadow:0 4px 24px rgba(0,0,0,.6);opacity:0}
+</style></head>
+<body>
+<div id="stage">
+  <canvas id="c"></canvas>
+  <div id="vig"></div>
+  <div id="title"></div>
+  <div class="hud" id="hl"><div class="lab" id="ll"></div><div id="val" class="serif"></div>
+    <div id="al"><div class="lab" id="all"></div><div id="alv" class="serif"></div></div></div>
+  <div class="hud" id="hr"><div class="lab" id="rl"></div><div id="status"></div><div class="lab" id="sub"></div></div>
+  <div id="card"></div>
+  <div id="cap" class="serif"></div>
+</div>
+<script src="/three.min.js"></script>
+<script src="/kit.js"></script>
+<script src="/dizzo.js"></script>
+<script src="/shots.js"></script>
+<script>window.KAZ_READY = true;</script>
+</body></html>

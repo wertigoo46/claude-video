@@ -1,0 +1,13 @@
+{
+  "name": "3d-kaz-studio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Renderer for the 3D Kaz plugin: low-poly 3D explainer videos filmed in headless Chromium.",
+  "license": "SEE LICENSE IN ../../../LICENSE",
+  "scripts": {
+    "demo": "node render.js examples/luck-demo",
+    "demo:stills": "node render.js examples/luck-demo --stills"
+  },
+  "dependencies": { "three": "0.160.0" },
+  "peerDependencies": { "playwright": ">=1.40.0" }
+}
