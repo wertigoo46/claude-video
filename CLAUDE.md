@@ -46,3 +46,6 @@ sfx `{"enabled":true,"gainDb":-5}` (never use the "buzz" SFX — it's a fly; use
 Final TikTok encode (from build/video_silent.mp4 + build/mix.wav):
 `ffmpeg -i build/video_silent.mp4 -i build/mix.wav -map 0:v -map 1:a -c:v libx264 -preset slow -profile:v high -level 4.2 -pix_fmt yuv420p -crf 17 -maxrate 12M -bufsize 24M -r 30 -g 60 -bf 2 -c:a aac -b:a 192k -ar 44100 -shortest -movflags +faststart <out>.mp4`
 (~20–28 MB per 30 s). Send with SendUserFile; videos not committed.
+Voice clarity (user asked, apply to every short): before mixing, keep raw as input/voiceover_raw.wav and process
+`-af "highpass=f=85,equalizer=f=250:t=q:w=1.2:g=-3,equalizer=f=3200:t=q:w=1.0:g=4,equalizer=f=6500:t=q:w=1.5:g=2,acompressor=threshold=-22dB:ratio=3.5:attack=5:release=120:makeup=4,alimiter=limit=0.95"`
+→ input/voiceover.wav; then music gainDb -2, sfx gainDb -8, ambience beds at -34.

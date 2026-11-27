@@ -33,7 +33,7 @@
    ],
    "amb": {
     "name": "rain",
-    "gain": -26
+    "gain": -34
    }
   },
   {
@@ -62,7 +62,7 @@
    ],
    "amb": {
     "name": "rain",
-    "gain": -26
+    "gain": -34
    }
   },
   {
@@ -96,7 +96,7 @@
    ],
    "amb": {
     "name": "rain",
-    "gain": -26
+    "gain": -34
    }
   },
   {
@@ -127,7 +127,7 @@
    ],
    "amb": {
     "name": "roomtone",
-    "gain": -26
+    "gain": -34
    }
   },
   {
@@ -155,7 +155,7 @@
    ],
    "amb": {
     "name": "roomtone",
-    "gain": -26
+    "gain": -34
    }
   },
   {
@@ -184,7 +184,7 @@
    ],
    "amb": {
     "name": "rain",
-    "gain": -26
+    "gain": -34
    }
   },
   {
@@ -214,7 +214,7 @@
    ],
    "amb": {
     "name": "rain",
-    "gain": -26
+    "gain": -34
    }
   },
   {
@@ -242,7 +242,7 @@
    ],
    "amb": {
     "name": "rain",
-    "gain": -26
+    "gain": -34
    }
   },
   {
@@ -285,7 +285,7 @@
    ],
    "amb": {
     "name": "rain",
-    "gain": -26
+    "gain": -34
    }
   },
   {
@@ -324,7 +324,7 @@
    ],
    "amb": {
     "name": "rain",
-    "gain": -26
+    "gain": -34
    }
   },
   {
@@ -352,7 +352,7 @@
    ],
    "amb": {
     "name": "rain",
-    "gain": -26
+    "gain": -34
    }
   },
   {
@@ -386,7 +386,7 @@
    ],
    "amb": {
     "name": "rain",
-    "gain": -26
+    "gain": -34
    }
   },
   {
@@ -421,7 +421,7 @@
    ],
    "amb": {
     "name": "rain",
-    "gain": -26
+    "gain": -34
    }
   }
  ]

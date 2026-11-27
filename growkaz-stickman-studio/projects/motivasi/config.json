@@ -14,13 +14,13 @@
  "music": {
   "enabled": true,
   "file": "input/music_cut.wav",
-  "gainDb": -1,
+  "gainDb": -2,
   "duckDb": -5,
   "fadeOut": 1.2
  },
  "sfx": {
   "enabled": true,
-  "gainDb": -5
+  "gainDb": -8
  },
  "loudness": -14,
  "captionStyle": {
