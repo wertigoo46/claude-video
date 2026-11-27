@@ -1,0 +1,493 @@
+{
+ "title": "Creatine vs Protein",
+ "duration": 26.8,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0,
+   "end": 1.48,
+   "line": "Creatine or protein.",
+   "scene": "Gym wide, hero between two tubs, VS",
+   "set": "gym",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.02,
+     "name": "impact",
+     "gain": -7
+    },
+    {
+     "at": 0.05,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0.8,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0.55,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s02",
+   "start": 1.48,
+   "end": 3.8,
+   "line": "Which one actually builds muscle?",
+   "scene": "Giant face thinking, question marks",
+   "set": "gym",
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.25
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -10
+    },
+    {
+     "at": 0.15,
+     "name": "blip",
+     "gain": -13
+    },
+    {
+     "at": 0.6,
+     "name": "blip",
+     "gain": -13
+    },
+    {
+     "at": 1.25,
+     "name": "blip",
+     "gain": -13
+    },
+    {
+     "at": 1.0,
+     "name": "riser",
+     "gain": -11,
+     "dur": 1.3
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s03",
+   "start": 3.8,
+   "end": 5.38,
+   "line": "Protein is the bricks.",
+   "scene": "Bricks drop and stack beside hero",
+   "set": "gym",
+   "bars": "none",
+   "in": {
+    "type": "flash",
+    "dur": 0.2
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "impact",
+     "gain": -5
+    },
+    {
+     "at": 0.3,
+     "name": "hit",
+     "gain": -13
+    },
+    {
+     "at": 0.6,
+     "name": "hit",
+     "gain": -13
+    },
+    {
+     "at": 0.9,
+     "name": "hit",
+     "gain": -13
+    },
+    {
+     "at": 0.15,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s04",
+   "start": 5.38,
+   "end": 9.2,
+   "line": "Aim for about one point six grams per kilogram of body weight a day.",
+   "scene": "Number card 1.6 g per kg per day, hero points up",
+   "set": "gym",
+   "bars": "none",
+   "in": {
+    "type": "zoom",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -11
+    },
+    {
+     "at": 0.68,
+     "name": "counter",
+     "gain": -14,
+     "dur": 0.9
+    },
+    {
+     "at": 1.6,
+     "name": "ding",
+     "gain": -10
+    },
+    {
+     "at": 2.05,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 3.05,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s05",
+   "start": 9.2,
+   "end": 10.7,
+   "line": "Creatine is the fuel.",
+   "scene": "Power-up, battery fills, lightning",
+   "set": "gym",
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.25
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -10
+    },
+    {
+     "at": 0.15,
+     "name": "powerup",
+     "gain": -8
+    },
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s06",
+   "start": 10.7,
+   "end": 13.74,
+   "line": "Three to five grams daily can get you an extra rep or two.",
+   "scene": "Overhead press, rep counter climbs to +2",
+   "set": "gym",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0.35,
+     "name": "hit",
+     "gain": -11
+    },
+    {
+     "at": 1.6,
+     "name": "hit",
+     "gain": -11
+    },
+    {
+     "at": 2.4,
+     "name": "hit",
+     "gain": -9
+    },
+    {
+     "at": 2.42,
+     "name": "ding",
+     "gain": -8
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s07",
+   "start": 13.74,
+   "end": 15.08,
+   "line": "Early jump on the scale?",
+   "scene": "Hero on bathroom scale, number jumps",
+   "set": "gym",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -12
+    },
+    {
+     "at": 0.5,
+     "name": "stinger",
+     "gain": -8
+    },
+    {
+     "at": 0.5,
+     "name": "glitch",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s08",
+   "start": 15.08,
+   "end": 16.92,
+   "line": "That's water, not fat.",
+   "scene": "Freeze: flexed arm full of water drops, WATER check / FAT cross",
+   "set": "gym",
+   "bars": "none",
+   "in": {
+    "type": "flash",
+    "dur": 0.2
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "freeze",
+     "gain": -8
+    },
+    {
+     "at": 0.42,
+     "name": "ding",
+     "gain": -9
+    },
+    {
+     "at": 1.22,
+     "name": "buzz",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s09",
+   "start": 16.92,
+   "end": 18.42,
+   "line": "So protein wins.",
+   "scene": "Podium, protein #1, hero cheers",
+   "set": "gym",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "whoosh",
+     "gain": -11
+    },
+    {
+     "at": 0.4,
+     "name": "impact",
+     "gain": -6
+    },
+    {
+     "at": 0.42,
+     "name": "shimmer",
+     "gain": -10
+    },
+    {
+     "at": 0.5,
+     "name": "applause",
+     "gain": -18,
+     "dur": 1.0
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s10",
+   "start": 18.42,
+   "end": 20.78,
+   "line": "Creatine can't build what you never eat.",
+   "scene": "Empty plate, bricks crumble, hero shrugs",
+   "set": "gym",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.25
+   },
+   "sfx": [
+    {
+     "at": 0.86,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 1.1,
+     "name": "hit",
+     "gain": -14
+    },
+    {
+     "at": 1.5,
+     "name": "buzz",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s11",
+   "start": 20.78,
+   "end": 22.96,
+   "line": "Kidney issues? Ask your doctor first.",
+   "scene": "Doctor explains to hero, warning pills",
+   "set": "gym",
+   "bars": "none",
+   "in": {
+    "type": "whip",
+    "dur": 0.25
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -10
+    },
+    {
+     "at": 0.12,
+     "name": "blip",
+     "gain": -11
+    },
+    {
+     "at": 0.96,
+     "name": "pop",
+     "gain": -11
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s12",
+   "start": 22.96,
+   "end": 26.8,
+   "line": "Follow for more no-hype training science.",
+   "scene": "CTA: hero waves/points, FOLLOW pill",
+   "set": "gym",
+   "bars": "none",
+   "in": {
+    "type": "zoom",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -12,
+     "dur": 0.2
+    },
+    {
+     "at": 0.14,
+     "name": "impact",
+     "gain": -6
+    },
+    {
+     "at": 0.16,
+     "name": "pop",
+     "gain": -10
+    },
+    {
+     "at": 0.76,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 1.26,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 1.3,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   },
+   "captions": false
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 26.8,
+   "mood": "action",
+   "intensity": 0.7
+  }
+ ]
+}

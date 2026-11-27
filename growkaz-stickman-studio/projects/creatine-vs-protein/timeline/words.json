@@ -1,0 +1,375 @@
+{
+ "source": "whisper:small.en+script",
+ "words": [
+  {
+   "word": "Creatine",
+   "start": 0.0,
+   "end": 0.58
+  },
+  {
+   "word": "or",
+   "start": 0.58,
+   "end": 0.8
+  },
+  {
+   "word": "protein.",
+   "start": 0.8,
+   "end": 1.14
+  },
+  {
+   "word": "Which",
+   "start": 1.62,
+   "end": 1.72
+  },
+  {
+   "word": "one",
+   "start": 1.72,
+   "end": 1.94
+  },
+  {
+   "word": "actually",
+   "start": 1.94,
+   "end": 2.44
+  },
+  {
+   "word": "builds",
+   "start": 2.44,
+   "end": 2.84
+  },
+  {
+   "word": "muscle?",
+   "start": 2.84,
+   "end": 3.14
+  },
+  {
+   "word": "Protein",
+   "start": 3.94,
+   "end": 4.24
+  },
+  {
+   "word": "is",
+   "start": 4.24,
+   "end": 4.62
+  },
+  {
+   "word": "the",
+   "start": 4.62,
+   "end": 4.78
+  },
+  {
+   "word": "bricks.",
+   "start": 4.78,
+   "end": 5.04
+  },
+  {
+   "word": "Aim",
+   "start": 5.5,
+   "end": 5.62
+  },
+  {
+   "word": "for",
+   "start": 5.62,
+   "end": 5.84
+  },
+  {
+   "word": "about",
+   "start": 5.84,
+   "end": 6.06
+  },
+  {
+   "word": "one",
+   "start": 6.06,
+   "end": 6.36
+  },
+  {
+   "word": "point",
+   "start": 6.36,
+   "end": 6.66
+  },
+  {
+   "word": "six",
+   "start": 6.66,
+   "end": 6.96
+  },
+  {
+   "word": "grams",
+   "start": 6.96,
+   "end": 7.18
+  },
+  {
+   "word": "per",
+   "start": 7.18,
+   "end": 7.46
+  },
+  {
+   "word": "kilogram",
+   "start": 7.46,
+   "end": 7.86
+  },
+  {
+   "word": "of",
+   "start": 7.86,
+   "end": 8.04
+  },
+  {
+   "word": "body",
+   "start": 8.04,
+   "end": 8.22
+  },
+  {
+   "word": "weight",
+   "start": 8.22,
+   "end": 8.38
+  },
+  {
+   "word": "a",
+   "start": 8.38,
+   "end": 8.5
+  },
+  {
+   "word": "day.",
+   "start": 8.5,
+   "end": 8.68
+  },
+  {
+   "word": "Creatine",
+   "start": 9.34,
+   "end": 9.76
+  },
+  {
+   "word": "is",
+   "start": 9.76,
+   "end": 9.96
+  },
+  {
+   "word": "the",
+   "start": 9.96,
+   "end": 10.12
+  },
+  {
+   "word": "fuel.",
+   "start": 10.12,
+   "end": 10.4
+  },
+  {
+   "word": "Three",
+   "start": 10.84,
+   "end": 11.0
+  },
+  {
+   "word": "to",
+   "start": 11.0,
+   "end": 11.08
+  },
+  {
+   "word": "five",
+   "start": 11.08,
+   "end": 11.26
+  },
+  {
+   "word": "grams",
+   "start": 11.26,
+   "end": 11.52
+  },
+  {
+   "word": "daily",
+   "start": 11.52,
+   "end": 11.82
+  },
+  {
+   "word": "can",
+   "start": 11.82,
+   "end": 12.04
+  },
+  {
+   "word": "get",
+   "start": 12.04,
+   "end": 12.2
+  },
+  {
+   "word": "you",
+   "start": 12.2,
+   "end": 12.36
+  },
+  {
+   "word": "an",
+   "start": 12.36,
+   "end": 12.5
+  },
+  {
+   "word": "extra",
+   "start": 12.5,
+   "end": 12.78
+  },
+  {
+   "word": "rep",
+   "start": 12.78,
+   "end": 12.98
+  },
+  {
+   "word": "or",
+   "start": 12.98,
+   "end": 13.12
+  },
+  {
+   "word": "two.",
+   "start": 13.12,
+   "end": 13.3
+  },
+  {
+   "word": "Early",
+   "start": 13.88,
+   "end": 14.24
+  },
+  {
+   "word": "jump",
+   "start": 14.24,
+   "end": 14.46
+  },
+  {
+   "word": "on",
+   "start": 14.46,
+   "end": 14.62
+  },
+  {
+   "word": "the",
+   "start": 14.62,
+   "end": 14.7
+  },
+  {
+   "word": "scale?",
+   "start": 14.7,
+   "end": 15.02
+  },
+  {
+   "word": "That's",
+   "start": 15.2,
+   "end": 15.5
+  },
+  {
+   "word": "water,",
+   "start": 15.5,
+   "end": 15.9
+  },
+  {
+   "word": "not",
+   "start": 16.12,
+   "end": 16.3
+  },
+  {
+   "word": "fat.",
+   "start": 16.3,
+   "end": 16.54
+  },
+  {
+   "word": "So",
+   "start": 17.06,
+   "end": 17.2
+  },
+  {
+   "word": "protein",
+   "start": 17.32,
+   "end": 17.7
+  },
+  {
+   "word": "wins.",
+   "start": 17.7,
+   "end": 17.96
+  },
+  {
+   "word": "Creatine",
+   "start": 18.56,
+   "end": 18.86
+  },
+  {
+   "word": "can't",
+   "start": 18.86,
+   "end": 19.28
+  },
+  {
+   "word": "build",
+   "start": 19.28,
+   "end": 19.52
+  },
+  {
+   "word": "what",
+   "start": 19.52,
+   "end": 19.76
+  },
+  {
+   "word": "you",
+   "start": 19.76,
+   "end": 19.9
+  },
+  {
+   "word": "never",
+   "start": 19.9,
+   "end": 20.08
+  },
+  {
+   "word": "eat.",
+   "start": 20.08,
+   "end": 20.34
+  },
+  {
+   "word": "Kidney",
+   "start": 20.92,
+   "end": 21.08
+  },
+  {
+   "word": "issues?",
+   "start": 21.08,
+   "end": 21.28
+  },
+  {
+   "word": "Ask",
+   "start": 21.74,
+   "end": 21.86
+  },
+  {
+   "word": "your",
+   "start": 21.86,
+   "end": 22.02
+  },
+  {
+   "word": "doctor",
+   "start": 22.02,
+   "end": 22.2
+  },
+  {
+   "word": "first.",
+   "start": 22.2,
+   "end": 22.52
+  },
+  {
+   "word": "Follow",
+   "start": 23.1,
+   "end": 23.32
+  },
+  {
+   "word": "for",
+   "start": 23.32,
+   "end": 23.54
+  },
+  {
+   "word": "more",
+   "start": 23.54,
+   "end": 23.72
+  },
+  {
+   "word": "no-hype",
+   "start": 23.72,
+   "end": 24.22
+  },
+  {
+   "word": "training",
+   "start": 24.22,
+   "end": 24.52
+  },
+  {
+   "word": "science.",
+   "start": 24.52,
+   "end": 24.82
+  }
+ ]
+}
