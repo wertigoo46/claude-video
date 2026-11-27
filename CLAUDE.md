@@ -28,3 +28,8 @@ studio, patched to load `studio3d/dizzo.js` and use /opt/pw-browsers/chromium).
 5. `tools/youtube_encode.sh videos3d/<slug>/out/render.mp4 "<Title>" "videos3d/<slug>/<Title>.mp4" videos3d/<slug>/voice.wav`
    → 1440p H.264 (YouTube gives 1440p uploads its better codec), CRF 21 (~65–70 MB per 4 min),
    AAC 192k, title metadata. Send the file to the user. Videos are not committed.
+
+## User preference: always include copyable narration
+Whenever the user gives a topic, include the clean TTS narration (plain text, no labels/asterisks,
+numbers spelled out) in a fenced code block right after the scene breakdown, so they can copy it
+without waiting for approval. Default length for shorts: ~30 s (≈75 words), 9:16 Stickman neonGold style.
