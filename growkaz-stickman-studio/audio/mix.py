@@ -51,7 +51,7 @@ def main():
         if mcfg.get("file"):
             mus = load_any(os.path.join(P, mcfg["file"]))
             reps = int(np.ceil(n / len(mus))); mus = np.concatenate([mus] * reps)[:n]
-            k = secs(3); mus[-k:] *= np.linspace(1, 0, k)[:, None]
+            k = secs(mcfg.get("fadeOut", 3)); mus[-k:] *= np.linspace(1, 0, k)[:, None]
         else:
             path = os.path.join(P, "build", "music.wav")
             plan = story.get("music") or MUSIC.default_plan(total)
@@ -59,7 +59,7 @@ def main():
             mus = MUSIC.render_score(plan, total, mcfg.get("seed", 1), mcfg.get("key")); write_wav(path, mus)
         mus = as_stereo(mus)[:n]; mus = np.concatenate([mus, np.zeros((n - len(mus), 2), np.float32)])
         mus *= db(v_rms + mcfg.get("gainDb", -17) - rms_db(mus))
-        mus *= db(-9 * env)[:, None]
+        mus *= db(mcfg.get("duckDb", -9) * env)[:, None]
         mix += mus
     # ---- sfx + ambience
     scfg = cfg.get("sfx", {}) or {}

@@ -14,7 +14,9 @@
  "music": {
   "enabled": true,
   "file": "input/music_cut.wav",
-  "gainDb": -11
+  "gainDb": -3,
+  "duckDb": -6,
+  "fadeOut": 1.2
  },
  "sfx": {
   "enabled": true,
