@@ -33,3 +33,16 @@ studio, patched to load `studio3d/dizzo.js` and use /opt/pw-browsers/chromium).
 Whenever the user gives a topic, include the clean TTS narration (plain text, no labels/asterisks,
 numbers spelled out) in a fenced code block right after the scene breakdown, so they can copy it
 without waiting for approval. Default length for shorts: ~30 s (≈75 words), 9:16 Stickman neonGold style.
+
+## Shorts default settings (saved by user — reuse for every new short)
+Studio: `growkaz-stickman-studio/` (GrowKaz Stickman), `projects/<slug>/`, 9:16 1080p 30 fps, captions on
+(`captionStyle: {hi:'#3fd8ff'}`), hero = neon-blue stick figure with white headband (`scenes/cast.js`, `neon()` glow).
+Styles: `neonGold` (yellow cinematic) or `neonNoir` (dark cinematic, `bars: "scope"`) — ask/infer from the request.
+Music: the user's track "X-COOL! (Sped Up)" (`projects/creatine-vs-protein/input/music.wav`). Cut it from 0 s to
+video length + 1 s with the intro (first 3.8 s) boosted ×2.2:
+`ffmpeg -i music.wav -t <dur> -af "volume='if(lt(t,3.8),2.2,if(lt(t,4.1),2.2-1.2*(t-3.8)/0.3,1))':eval=frame" -ar 48000 -ac 2 input/music_cut.wav`
+config.json music: `{"enabled":true,"file":"input/music_cut.wav","gainDb":-1,"duckDb":-5,"fadeOut":1.2}`;
+sfx `{"enabled":true,"gainDb":-5}` (never use the "buzz" SFX — it's a fly; use "glitch" for wrong/✗).
+Final TikTok encode (from build/video_silent.mp4 + build/mix.wav):
+`ffmpeg -i build/video_silent.mp4 -i build/mix.wav -map 0:v -map 1:a -c:v libx264 -preset slow -profile:v high -level 4.2 -pix_fmt yuv420p -crf 17 -maxrate 12M -bufsize 24M -r 30 -g 60 -bf 2 -c:a aac -b:a 192k -ar 44100 -shortest -movflags +faststart <out>.mp4`
+(~20–28 MB per 30 s). Send with SendUserFile; videos not committed.
