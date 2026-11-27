@@ -1,0 +1,350 @@
+{
+ "source": "whisper:small+script",
+ "words": [
+  {
+   "word": "Kau",
+   "start": 0.0,
+   "end": 0.1
+  },
+  {
+   "word": "penat?",
+   "start": 0.1,
+   "end": 0.42
+  },
+  {
+   "word": "Bagus.",
+   "start": 1.02,
+   "end": 1.5
+  },
+  {
+   "word": "Maksudnya",
+   "start": 2.0,
+   "end": 2.56
+  },
+  {
+   "word": "kau",
+   "start": 2.56,
+   "end": 2.72
+  },
+  {
+   "word": "tengah",
+   "start": 2.72,
+   "end": 2.98
+  },
+  {
+   "word": "berubah.",
+   "start": 2.98,
+   "end": 3.36
+  },
+  {
+   "word": "Semua",
+   "start": 4.2,
+   "end": 4.6
+  },
+  {
+   "word": "orang",
+   "start": 4.6,
+   "end": 4.76
+  },
+  {
+   "word": "nak",
+   "start": 4.76,
+   "end": 4.9
+  },
+  {
+   "word": "badan",
+   "start": 4.9,
+   "end": 5.14
+  },
+  {
+   "word": "sasa.",
+   "start": 5.14,
+   "end": 5.36
+  },
+  {
+   "word": "Tapi",
+   "start": 5.96,
+   "end": 6.28
+  },
+  {
+   "word": "tak",
+   "start": 6.28,
+   "end": 6.44
+  },
+  {
+   "word": "ramai",
+   "start": 6.44,
+   "end": 6.72
+  },
+  {
+   "word": "sanggup",
+   "start": 6.72,
+   "end": 7.02
+  },
+  {
+   "word": "bangun",
+   "start": 7.02,
+   "end": 7.24
+  },
+  {
+   "word": "pukul",
+   "start": 7.24,
+   "end": 7.44
+  },
+  {
+   "word": "enam",
+   "start": 7.44,
+   "end": 7.64
+  },
+  {
+   "word": "pagi,",
+   "start": 7.64,
+   "end": 8.06
+  },
+  {
+   "word": "bila",
+   "start": 8.36,
+   "end": 8.6
+  },
+  {
+   "word": "katil",
+   "start": 8.6,
+   "end": 8.92
+  },
+  {
+   "word": "tengah",
+   "start": 8.92,
+   "end": 9.14
+  },
+  {
+   "word": "panggil",
+   "start": 9.14,
+   "end": 9.56
+  },
+  {
+   "word": "nama",
+   "start": 9.56,
+   "end": 9.74
+  },
+  {
+   "word": "kau.",
+   "start": 9.74,
+   "end": 10.04
+  },
+  {
+   "word": "Gym",
+   "start": 10.04,
+   "end": 11.42
+  },
+  {
+   "word": "tak",
+   "start": 11.42,
+   "end": 11.56
+  },
+  {
+   "word": "kisah",
+   "start": 11.56,
+   "end": 11.82
+  },
+  {
+   "word": "kau",
+   "start": 11.82,
+   "end": 11.94
+  },
+  {
+   "word": "lemah",
+   "start": 11.94,
+   "end": 12.18
+  },
+  {
+   "word": "hari",
+   "start": 12.18,
+   "end": 12.3
+  },
+  {
+   "word": "ni.",
+   "start": 12.3,
+   "end": 12.85
+  },
+  {
+   "word": "Gym",
+   "start": 12.85,
+   "end": 13.4
+  },
+  {
+   "word": "cuma",
+   "start": 13.4,
+   "end": 13.62
+  },
+  {
+   "word": "tanya",
+   "start": 13.62,
+   "end": 13.82
+  },
+  {
+   "word": "satu",
+   "start": 13.82,
+   "end": 14.18
+  },
+  {
+   "word": "soalan.",
+   "start": 14.18,
+   "end": 14.54
+  },
+  {
+   "word": "Kau",
+   "start": 15.4,
+   "end": 15.52
+  },
+  {
+   "word": "datang,",
+   "start": 15.52,
+   "end": 16.06
+  },
+  {
+   "word": "ke",
+   "start": 16.06,
+   "end": 16.46
+  },
+  {
+   "word": "tak?",
+   "start": 16.46,
+   "end": 16.64
+  },
+  {
+   "word": "Satu",
+   "start": 17.6,
+   "end": 18.16
+  },
+  {
+   "word": "rep",
+   "start": 18.16,
+   "end": 18.34
+  },
+  {
+   "word": "lagi.",
+   "start": 18.34,
+   "end": 18.58
+  },
+  {
+   "word": "Satu",
+   "start": 19.2,
+   "end": 19.64
+  },
+  {
+   "word": "set",
+   "start": 19.64,
+   "end": 19.88
+  },
+  {
+   "word": "lagi.",
+   "start": 19.88,
+   "end": 20.12
+  },
+  {
+   "word": "Itu",
+   "start": 20.88,
+   "end": 21.2
+  },
+  {
+   "word": "je",
+   "start": 21.2,
+   "end": 21.37
+  },
+  {
+   "word": "beza",
+   "start": 21.37,
+   "end": 21.54
+  },
+  {
+   "word": "kau",
+   "start": 21.54,
+   "end": 21.78
+  },
+  {
+   "word": "dengan",
+   "start": 21.78,
+   "end": 21.94
+  },
+  {
+   "word": "orang",
+   "start": 21.94,
+   "end": 22.22
+  },
+  {
+   "word": "yang",
+   "start": 22.22,
+   "end": 22.34
+  },
+  {
+   "word": "berhenti.",
+   "start": 22.34,
+   "end": 22.66
+  },
+  {
+   "word": "Jangan",
+   "start": 23.68,
+   "end": 24.16
+  },
+  {
+   "word": "tunggu",
+   "start": 24.16,
+   "end": 24.38
+  },
+  {
+   "word": "motivasi.",
+   "start": 24.38,
+   "end": 24.86
+  },
+  {
+   "word": "Disiplin",
+   "start": 25.64,
+   "end": 26.2
+  },
+  {
+   "word": "yang",
+   "start": 26.2,
+   "end": 26.36
+  },
+  {
+   "word": "bawa",
+   "start": 26.36,
+   "end": 26.54
+  },
+  {
+   "word": "kau",
+   "start": 26.54,
+   "end": 26.7
+  },
+  {
+   "word": "sampai.",
+   "start": 26.7,
+   "end": 26.96
+  },
+  {
+   "word": "Esok",
+   "start": 27.62,
+   "end": 28.22
+  },
+  {
+   "word": "pagi,",
+   "start": 28.22,
+   "end": 28.46
+  },
+  {
+   "word": "jumpa",
+   "start": 29.0,
+   "end": 29.3
+  },
+  {
+   "word": "kat",
+   "start": 29.3,
+   "end": 29.42
+  },
+  {
+   "word": "gym.",
+   "start": 29.42,
+   "end": 29.54
+  }
+ ]
+}

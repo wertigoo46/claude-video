@@ -1,0 +1,428 @@
+{
+ "title": "Kau Penat Bagus",
+ "duration": 31.0,
+ "shots": [
+  {
+   "id": "m01",
+   "start": 0,
+   "end": 1.9,
+   "line": "Kau penat? Bagus.",
+   "scene": "Kau penat? Bagus.",
+   "set": "noir",
+   "bars": "scope",
+   "in": {
+    "type": "fade",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.02,
+     "name": "thunder",
+     "gain": -7
+    },
+    {
+     "at": 0.0,
+     "name": "heartbeat",
+     "gain": -8
+    },
+    {
+     "at": 1.02,
+     "name": "impact",
+     "gain": -6
+    }
+   ],
+   "amb": {
+    "name": "rain",
+    "gain": -26
+   }
+  },
+  {
+   "id": "m02",
+   "start": 1.9,
+   "end": 4.05,
+   "line": "Maksudnya kau tengah berubah.",
+   "scene": "Maksudnya kau tengah berubah.",
+   "set": "noir",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "riser",
+     "gain": -10,
+     "dur": 1.0
+    },
+    {
+     "at": 1.1,
+     "name": "powerup",
+     "gain": -9
+    }
+   ],
+   "amb": {
+    "name": "rain",
+    "gain": -26
+   }
+  },
+  {
+   "id": "m03",
+   "start": 4.05,
+   "end": 5.85,
+   "line": "Semua orang nak badan sasa.",
+   "scene": "Semua orang nak badan sasa.",
+   "set": "noir",
+   "bars": "scope",
+   "in": {
+    "type": "whip",
+    "dur": 0.25
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -10
+    },
+    {
+     "at": 1.0,
+     "name": "impact",
+     "gain": -7
+    },
+    {
+     "at": 1.05,
+     "name": "shimmer",
+     "gain": -11
+    }
+   ],
+   "amb": {
+    "name": "rain",
+    "gain": -26
+   }
+  },
+  {
+   "id": "m04",
+   "start": 5.85,
+   "end": 8.25,
+   "line": "Tapi tak ramai sanggup bangun pukul enam pagi,",
+   "scene": "Tapi tak ramai sanggup bangun pukul enam pagi,",
+   "set": "noir",
+   "bars": "scope",
+   "in": {
+    "type": "dip",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "clock",
+     "gain": -14,
+     "dur": 1.5
+    },
+    {
+     "at": 1.59,
+     "name": "phonering",
+     "gain": -11,
+     "dur": 0.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "m05",
+   "start": 8.25,
+   "end": 10.9,
+   "line": "bila katil tengah panggil nama kau. Gym",
+   "scene": "bila katil tengah panggil nama kau. Gym",
+   "set": "noir",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.35,
+     "name": "shimmer",
+     "gain": -13
+    },
+    {
+     "at": 1.3,
+     "name": "slowmo",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "m06",
+   "start": 10.9,
+   "end": 12.75,
+   "line": "tak kisah kau lemah hari ni.",
+   "scene": "tak kisah kau lemah hari ni.",
+   "set": "noir",
+   "bars": "scope",
+   "in": {
+    "type": "flash",
+    "dur": 0.15
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "thunder",
+     "gain": -9
+    },
+    {
+     "at": 1.04,
+     "name": "heartbeat",
+     "gain": -9
+    }
+   ],
+   "amb": {
+    "name": "rain",
+    "gain": -26
+   }
+  },
+  {
+   "id": "m07",
+   "start": 12.75,
+   "end": 15.25,
+   "line": "Gym cuma tanya satu soalan.",
+   "scene": "Gym cuma tanya satu soalan.",
+   "set": "noir",
+   "bars": "scope",
+   "in": {
+    "type": "dip",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "riser",
+     "gain": -12,
+     "dur": 2.0
+    },
+    {
+     "at": 1.07,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "rain",
+    "gain": -26
+   }
+  },
+  {
+   "id": "m08",
+   "start": 15.25,
+   "end": 17.4,
+   "line": "Kau datang, ke tak?",
+   "scene": "Kau datang, ke tak?",
+   "set": "noir",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "impact",
+     "gain": -6
+    },
+    {
+     "at": 0.3,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "rain",
+    "gain": -26
+   }
+  },
+  {
+   "id": "m09",
+   "start": 17.4,
+   "end": 20.75,
+   "line": "Satu rep lagi. Satu set lagi.",
+   "scene": "Satu rep lagi. Satu set lagi.",
+   "set": "noir",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "heartbeat",
+     "gain": -10
+    },
+    {
+     "at": 0.76,
+     "name": "hit",
+     "gain": -7
+    },
+    {
+     "at": 0.78,
+     "name": "ding",
+     "gain": -11
+    },
+    {
+     "at": 2.24,
+     "name": "hit",
+     "gain": -7
+    },
+    {
+     "at": 2.26,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "rain",
+    "gain": -26
+   }
+  },
+  {
+   "id": "m10",
+   "start": 20.75,
+   "end": 23.5,
+   "line": "Itu je beza kau dengan orang yang berhenti.",
+   "scene": "Itu je beza kau dengan orang yang berhenti.",
+   "set": "noir",
+   "bars": "scope",
+   "in": {
+    "type": "whip",
+    "dur": 0.25
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -10
+    },
+    {
+     "at": 0.25,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 1.6,
+     "name": "footstep",
+     "gain": -14
+    },
+    {
+     "at": 1.9,
+     "name": "footstep",
+     "gain": -14
+    }
+   ],
+   "amb": {
+    "name": "rain",
+    "gain": -26
+   }
+  },
+  {
+   "id": "m11",
+   "start": 23.5,
+   "end": 25.45,
+   "line": "Jangan tunggu motivasi.",
+   "scene": "Jangan tunggu motivasi.",
+   "set": "noir",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.78,
+     "name": "pop",
+     "gain": -11
+    },
+    {
+     "at": 1.28,
+     "name": "glitch",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "rain",
+    "gain": -26
+   }
+  },
+  {
+   "id": "m12",
+   "start": 25.45,
+   "end": 27.45,
+   "line": "Disiplin yang bawa kau sampai.",
+   "scene": "Disiplin yang bawa kau sampai.",
+   "set": "noir",
+   "bars": "scope",
+   "in": {
+    "type": "flash",
+    "dur": 0.15
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.2,
+     "name": "impact",
+     "gain": -7
+    },
+    {
+     "at": 0.25,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "rain",
+    "gain": -26
+   }
+  },
+  {
+   "id": "m13",
+   "start": 27.45,
+   "end": 31.0,
+   "line": "Esok pagi, jumpa kat gym.",
+   "scene": "Esok pagi, jumpa kat gym.",
+   "set": "noir",
+   "bars": "scope",
+   "in": {
+    "type": "dip",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "riser",
+     "gain": -11,
+     "dur": 1.4
+    },
+    {
+     "at": 1.55,
+     "name": "impact",
+     "gain": -5
+    },
+    {
+     "at": 1.6,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "rain",
+    "gain": -26
+   }
+  }
+ ]
+}

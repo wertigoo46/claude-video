@@ -1,0 +1,30 @@
+{
+ "title": "Kau Penat Bagus",
+ "aspect": "9:16",
+ "resolution": "1080p",
+ "fps": 30,
+ "style": "neonNoir",
+ "voiceover": "input/voiceover.wav",
+ "script": "input/script.txt",
+ "duration": 31.0,
+ "captions": true,
+ "bars": "scope",
+ "fadeIn": 0.5,
+ "fadeOut": 0.8,
+ "music": {
+  "enabled": true,
+  "file": "input/music_cut.wav",
+  "gainDb": -1,
+  "duckDb": -5,
+  "fadeOut": 1.2
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -5
+ },
+ "loudness": -14,
+ "captionStyle": {
+  "hi": "#3fd8ff",
+  "size": 76
+ }
+}
