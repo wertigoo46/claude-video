@@ -386,20 +386,20 @@
   {
    "start": 0,
    "end": 9.85,
-   "mood": "dark",
-   "intensity": 0.45
+   "mood": "tension",
+   "intensity": 0.7
   },
   {
    "start": 9.85,
    "end": 23.65,
-   "mood": "tension",
-   "intensity": 0.65
+   "mood": "action",
+   "intensity": 0.8
   },
   {
    "start": 23.65,
    "end": 27.6,
    "mood": "epic",
-   "intensity": 0.7
+   "intensity": 0.9
   }
  ]
 }
