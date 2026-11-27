@@ -18,6 +18,16 @@ export const BASE_MOODS = {
 const UI = { card: 'rgba(18,28,48,.94)', cardLine: 'rgba(150,180,230,.25)', text: '#9fb6d8', sub: '#6f84a6', accent: '#ff6f61', gold: '#ffd47e', cream: '#fff1dc', blueprint: '#8fb8e8', bpBg: '#0b1324', good: '#5fd39a' };
 
 export const STYLES = {
+  neonNoir: {
+    name: 'Neon Noir', desc: 'Dark, serious cinema: near-black navy world, hard single spotlights, rain and fog, neon-blue glowing figures, amber practicals.',
+    ink: '#14b2ff', inkFar: '#0a4fa8', feature: '#ffffff', rimWidth: 5,
+    ui: { ...UI, card: 'rgba(6,10,22,.94)', cardLine: 'rgba(80,210,255,.45)', text: '#cfe8ff', sub: '#6f8aa6', accent: '#ff3b3b', gold: '#3fd8ff', cream: '#eef4ff', blueprint: '#5fc8ff', bpBg: '#040814', good: '#5fffb0' },
+    grade: { contrast: 1.22, sat: 0.95, lift: [0.0, 0.01, 0.03], gamma: [0.94, 0.98, 1.06], gain: [0.98, 1.0, 1.08], vignette: 0.9, grain: 0.08, bloom: 0.9 },
+    moods: {
+      night: { sky: ['#02040a', '#0a1428', '#16263f'], ambient: '#0c1424', key: '#d8ecff', rim: '#7fdcff', wall: '#0e1626', floor: '#0a101c', dark: '#03060c', practical: '#ffb24a', fog: '#2a3a55' },
+      storm: { sky: ['#020409', '#0b1426', '#1a2a44'], ambient: '#0c1424', key: '#e6f2ff', rim: '#8fe2ff', wall: '#0d1422', floor: '#090e18', dark: '#02050a', practical: '#ffb24a', fog: '#2a3a55' },
+    },
+  },
   neonGold: {
     name: 'Neon Gold', desc: 'Neon-blue glowing figures on a warm yellow cinematic world: amber shadows, bright yellow key, icy rim light.',
     ink: '#14b2ff', inkFar: '#0a5cc0', feature: '#ffffff', rimWidth: 5,

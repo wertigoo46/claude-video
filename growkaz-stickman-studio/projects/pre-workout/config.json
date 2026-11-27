@@ -1,0 +1,29 @@
+{
+ "title": "Pre-Workout",
+ "aspect": "9:16",
+ "resolution": "1080p",
+ "fps": 30,
+ "style": "neonNoir",
+ "voiceover": "input/voiceover.wav",
+ "script": "input/script.txt",
+ "duration": 27.6,
+ "captions": true,
+ "bars": "scope",
+ "fadeIn": 0.5,
+ "fadeOut": 0.8,
+ "music": {
+  "enabled": true,
+  "gainDb": -12,
+  "duckDb": -6,
+  "seed": 7
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -5
+ },
+ "loudness": -14,
+ "captionStyle": {
+  "hi": "#3fd8ff",
+  "size": 76
+ }
+}
